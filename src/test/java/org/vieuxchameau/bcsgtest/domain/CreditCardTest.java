@@ -1,7 +1,6 @@
 package org.vieuxchameau.bcsgtest.domain;
 
 import org.junit.Test;
-import org.vieuxchameau.bcsgtest.domain.CreditCard;
 
 import java.time.YearMonth;
 import java.time.format.DateTimeParseException;

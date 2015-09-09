@@ -11,5 +11,12 @@ Royal Bank of  Canada | 4519-4532-4524-2456 | 4519-xxxx-xxxx-xxxx
 American Express | 3786-7334-8965-345 | xxxx-xxxx-xxxx-345
 
 Please use the CSV file supplied.
+
 You must use test driven development approach when solving this problem. 
+
 You must consider code reusability when solving this problem.
+
+# Required
+
+- Java 8
+- Maven 3

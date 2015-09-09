@@ -8,7 +8,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class MaskService {
-	private static List<Strategy> STRATEGIES = new ArrayList<>();
+	private static final List<Strategy> STRATEGIES = new ArrayList<>();
 
 	private static final Predicate<String> alwaysTrue = card -> true;
 
@@ -49,11 +49,11 @@ public class MaskService {
 			this.maskFunction = maskFunction;
 		}
 
-		public boolean match(final String bankName) {
+		boolean match(final String bankName) {
 			return bankPattern.test(bankName);
 		}
 
-		public String mask(final String cardNumber) {
+		String mask(final String cardNumber) {
 			return maskFunction.apply(cardNumber);
 		}
 	}
